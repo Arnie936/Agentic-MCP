@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "calculator": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\Users\\Arnold\\Desktop\\mcps\\calculator_server",
+        "run",
+        "server.py"
+      ]
+    }
+  }
+}
+
