@@ -168,7 +168,7 @@ async def send_to_webhook(prompt: str) -> str:
     Args:
         prompt: The text prompt to process
     """
-    webhook_url = "https://arnie.app.n8n.cloud/webhook/01a1b310-9d03-41f8-ad65-acb1af98f928"
+    webhook_url = "Your_URL"
     
     async with httpx.AsyncClient() as client:
         try:
@@ -203,3 +203,4 @@ def divide(a: float, b: float) -> float:
 if __name__ == "__main__":
     # Initialize and run the server
     mcp.run(transport='stdio')
+
