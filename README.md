@@ -77,7 +77,7 @@ To use this server with Claude for Desktop:
          "command": "uv",
          "args": [
            "--directory",
-           "C:\\Users\\Arnold\\Desktop\\mcps\\calculator_server",
+           "C:\\Users\\Your_Name\\Desktop\\mcps\\calculator_server",
            "run",
            "server.py"
          ]
@@ -89,3 +89,4 @@ To use this server with Claude for Desktop:
    **Important**: Make sure the path in `--directory` matches the actual absolute path to your `calculator_server` folder.
 
 3. Restart Claude for Desktop.
+
